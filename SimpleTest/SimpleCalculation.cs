@@ -12,5 +12,10 @@ namespace SimpleTest
         {
             return sum1 + sum2;
         }
+
+        public int Multiply(int factor1, int factor2)
+        {
+            return factor1 * factor2;
+        }
     }
 }
