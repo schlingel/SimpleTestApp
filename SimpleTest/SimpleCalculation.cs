@@ -12,5 +12,17 @@ namespace SimpleTest
         {
             return sum1 + sum2;
         }
+
+        public int Power(int baseNumber, int exponent)
+        {
+            int result = baseNumber;
+
+            for (int i = 0; i < exponent; i++)
+            {
+                result *= baseNumber;
+            }
+
+            return result;
+        }
     }
 }
